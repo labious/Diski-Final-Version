@@ -1,0 +1,76 @@
+
+a {
+  display: inline-block;
+  transition: all ease 0.3s;
+}
+.containerA {
+  width: 20vw !important;
+}
+.ops .containerA {
+  width: 15vw !important;
+}
+.profile-box {
+  background: #f65145ce ;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-cover-image img {
+  width: 100%;
+}
+
+.profile-content h1 {
+  font-family:inherit;
+  color: #0f0101;
+  font-size: 10px !important;
+}
+.profile-content p {
+  color: #f6f4f4;
+  font-weight: 600;
+}
+
+.members {
+  margin-left: 20%;
+}
+.members-heading {
+  color: #0f0101;
+}
+
+ h1 {
+  font-size: 50px !important;
+ 
+}
+
+@media only screen and (max-width : 502px) {
+  .containerA {
+    width: 50vw !important;
+    margin: 20px;
+  }
+  .ops .containerA {
+    width: 50vw !important;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #logo-image {
+    position:relative;
+   height:6.5vh !important;
+   margin-right: 35%;
+  }
+
+  .get-in-touch {
+    max-width: 80vw;
+    padding: 10px 10px;
+  }
+  .get-in-touch .title {
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 28px;
+  
+  }
+  .viewport-header  h1 {
+    font-size: 55px !important;
+  }
+ }
