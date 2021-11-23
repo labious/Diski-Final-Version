@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./about-v2.css">
+
+    <link href="./css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+
+    <link href="css/style1.css" type="text/css" rel="stylesheet" media="screen,projection">
+
+    <link rel="stylesheet" href="./css/sectioning.css">
+
+    <link rel="stylesheet" href="./css/About-us.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("user_iDdTWktxHFSgmJ8vJcNHE");
+    })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                // these IDs from the previous steps
+                emailjs.sendForm('service_hp1355g', 'template_4m7gv18', this)
+                    .then(function() {
+                        alert('SUCCESS!');
+                    }, function(error) {
+                        alert('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+
+
+</head>
+<body>
+    <!-- ***************************** Navigation Desktop Only ************************ -->
+    <div class="header-scroll" id="nav-motion">
+      <nav class="white nav" role="navigation">
+  
+        <div class="nav-wrapper container" id="nav-wrapper">
+          <a id="logo-container" href="index.html" class="brand-logo">
+            <img width="130px" class=" responsive-img" id="logo-image" src="./img/logo-main.jpg" alt="" srcset="">
+          </a>
+          <ul class="right hide-on-small-only " id="nav-links">
+              <li><a href="index.html">Home</a></li>
+            
+              <li id="feedback-box"><a href="about-v2.html">About</a></li>
+  
+              <li class="" id="Programmes-menu-box">
+                <a href="programmes.html" class="  desktop-item">Programmes</a>
+              </li>
+  
+              <li class="" id="dropdown-menu-box">
+                <a href="impact.html" class="desktop-item">Impact</a>
+              </li>
+  
+              <li id="Galery-box"><a href="./gallery.html" class="desktop-item">Gallery</a></li>
+              <li><a href="./About.html#get-invloved" id="download-button" class="btn-small center  red lighten-1 ">Donate</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" id="sidenav-trigger" class="sidenav-trigger hide-on-med-and-up"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="sidenav">
+            <a href="#">
+            <img width="40px" class="circle hide-on-med-and-up responsive-img" id="logo-image-mobile-nav" src="./img/logo2.png" alt="" srcset="">   
+            </a>
+            <!-- Mobile Navigation -->
+            <div class="mob-link">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-v2.html">About</a></li>
+              <li><a href="programmes.html">Programmes</a></li>
+              <li><a href="impact.html">Impact</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a  href="./gallery.html">Gallery</a></li>
+              <li><a href="./About.html#get-invloved" id="download-button" class="btn-small  red ">Donate</a></li>
+              <div class="socials">
+                <i class="fab fa-facebook  fa-2x"></i>
+                <i class="fab fa-linkedin fa-2x"></i>
+                <i class="fab fa-youtube-square fa-2x"></i>
+              </div>
+            </div>
+        </ul>
+      </div>
+    </div><!-- *****************************End of Navigation Desktop Only ************************ -->
+  
+    <header class="video-header about red" id="video-header">
+      <div class="videoH">
+      <div class="header__bg ">
+        <video id="theVideo" src="./img/diski.mp4" autoplay muted loop></video>
+      </div>
+
+      <div class="viewport-header">
+        <h1 style="font-family: Impact, Charcoal, sans-serif; " class="header__title ">About DiskiNine9</h1>
+        <div id="section07" class="demo">
+          <a href="#main">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+      </div>
+      
+
+    </div>
+      </header>
+      
+      <main class="main " id="main"> 
+        <div class="">
+          <div class="section">
+      
+            <!--   Icon Section   -->
+            <div class="row ">
+
+              <div class=" s6">
+                <div class="icon-block">
+                  <h5 class="center">What we do</h5>
+                  <p class="light">
+                    In response to social ills that have negative effects in underprivileged communities, Co-founders, Raymond Ledwaba and Phehello Monamodi established Diski Nine9 as a way to change the narrative by providing youths from Soweto with a platform to play sports in a safe place and realise their talents to become better professionals, leaders and role models in their communities. The following are the Programmes we use to counteract these social ills:
+                  </p>
+                </div>
+              </div>
+      
+              <div class=" s6">
+                <div class="icon-block">
+                  <h5 class="center">Why Sports?</h5>
+                  <p class="light"> 
+                    By participating in sports activities in general, children’s social skills are likely to come alive as it is a fantastic facilitator to promote social interaction, cooperation, teamwork and friendship. Research has also shown how sports can improve problem solving skills, build self-discipline, respect for authority and team-mates, trust, leadership and coping skills. Confidence is a huge factor for children and participation in sports will only assist the development of character. Children with enhanced self esteem will inevitably be more comfortable in their own skin and therefore be well placed to proceed well in their early school and social lives.
+                  </p>
+              </div>
+      
+              <div class=" s6">
+                <div class="icon-block">
+                  <h5 class="center">Why Education?</h5>
+                  <p class="light">
+                    Proper and good education is very important for all of us. It facilitates quality learning all through the life among people of any age group, cast, creed, religion and region. It is the process of achieving knowledge, values, skills, beliefs, and moral habits. People need to get high level awareness about the importance of knowledge more than before. Education is very necessary for each and everyone in order to improve knowledge, way of living as well as social and economic status throughout life.
+                    </p>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+        <h1 class="center members-heading">Our Team</h1>
+        <h5 class="center">Board Members</h5>
+        <div class="row center members">
+          <div class="containerA  col s4">
+            <div class=" ">
+              <div class="profile-container">
+                <div class="profile-box">
+                  <div class="profile-cover-image">
+                    <img  class="member-img" alt="Profile for Raymon Ledwaba" 
+                    src="./img/about-us/Ray Pic.jpg" />
+                  </div>
+                  <div class="profile-content">
+                    <div class="tag">
+                      <p class=" center">Raymond Ledwaba</p>
+                      <p class=" center">Co-Founder</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="containerA  col s4">
+            <div class=" ">
+              <div class="profile-container">
+                <div class="profile-box">
+                  <div class="profile-cover-image">
+                    <img class="member-img" alt="Profile shot for Phehello Monamodi" 
+                    src="./img/about-us/Phehello Monamodi.jpg" />
+                  </div>
+                  <div class="profile-content">
+                    <div class="tag">
+                      <p class=" center">Phehello Monamodi</p>
+                      <p class=" center">Co-Founder</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="containerA  col s4">
+            <div class=" ">
+              <div class="profile-container">
+                <div class="profile-box">
+                  <div class="profile-cover-image">
+                    <img class=" responsive-img" class="member-img" alt="Profile shot for Nicholas Castro" 
+                    src="./img/about-us/Vuyisa.jpg" />
+                  </div>
+                  <div class="profile-content">
+                    <div class="tag">
+                      <p class=" center">Vuyisa Sobayeni</p>
+                      <p class=" center">Operations Director</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 2ns row board members -->
+        <div class="row center members">
+          <div class="containerA  col s4">
+            <div class=" ">
+              <div class="profile-container">
+                <div class="profile-box">
+                  <div class="profile-cover-image">
+                    <img class=" responsive-img" class="member-img" alt="Profile shot for Linda Motea" 
+                    src="./img/about-us/Linda .jpg" />
+                  </div>
+                  <div class="profile-content">
+                    <div class="tag">
+                      <p class=" center">Linda Motea</p>
+                      <p class=" center">Media Officer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="containerA  col s4">
+            <div class=" ">
+              <div class="profile-container">
+                <div class="profile-box">
+                  <div class="profile-cover-image">
+                    <img class=" responsive-img" class="member-img" alt="Profile shot for Marc Dixon" 
+                    src="./img/about-us/Lazola Dabula.png" />
+                  </div>
+                  <div class="profile-content">
+                    <div class="tag">
+                      <p class=" center">Lazola Dabula</p>
+                      <p class=" center">CSI Expert</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="containerA  col s4">
+            <div class=" ">
+              <div class="profile-container">
+                <div class="profile-box">
+                  <div class="profile-cover-image">
+                    <img class=" responsive-img" class="member-img" alt="Profile shot for Chad" 
+                    src="./img/about-us/madoda.jfif" />
+                  </div>
+                  <div class="profile-content">
+                    <div class="tag">
+                      <p class=" center">Lesego Ndala</p>
+                      <p class=" center">Media Officer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!-- Operations Team -->
+      <h5 class="center">Project Managers</h5>
+        <div class="row center members ops">
+          <br>
+          <div class="containerA  col s3">
+            <div class=" ">
+              <div class="profile-container">
+                <div class="profile-box">
+                  <div class="profile-cover-image">
+                    <img class=" responsive-img" alt="Profile shot for Phehello Monamodi" 
+                    src="./img/about-us/Mmusa.png" />
+                  </div>
+                  <div class="profile-content">
+                    <div class="tag">
+                      <p class=" center">Mmusa Tsuebeane</p>
+                      <p class=" center">Sports Hospitality</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="containerA  col s3">
+            <div class=" ">
+              <div class="profile-container">
+                <div class="profile-box">
+                  <div class="profile-cover-image">
+                    <img class=" responsive-img" class="member-img" alt="Profile shot for Linda Motea" 
+                    src="./img/about-us/Linda .jpg" />
+                  </div>
+                  <div class="profile-content">
+                    <div class="tag">
+                      <p class=" center">Valencia Kgongoana</p>
+                      <p class=" center">GBV</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="containerA  col s3">
+            <div class=" ">
+              <div class="profile-container">
+                <div class="profile-box">
+                  <div class="profile-cover-image">
+                    <img src="./img/impact/sonto2.jpg" alt="city" />
+                  </div>
+                  <div class="profile-content">
+                    <div class="tag">
+                      <p class=" center">Nomasonto Mashaba</p>
+                      <p class=" center">Netball  Chairperson</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="containerA  col s3">
+            <div class=" ">
+              <div class="profile-container">
+                <div class="profile-box">
+                  <div class="profile-cover-image">
+                    <img class="member-img" alt="Profile shot for Phehello Monamodi" 
+                    src="./img/about-us/Phehello Monamodi.jpg" />
+                  </div>
+                  <div class="profile-content">
+                    <div class="tag">
+                      <p class=" center">David Rantho</p>
+                      <p class=" center">Education Lead</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <section class="get-in-touch">
+          <h2 class="title">Get in touch with us</h2>
+          <form class="contact-form rows" id="contact-form">
+            <div class="form-field cols x-100">
+              <input id="name" name="user_name" class="input-text js-input" type="text" placeholder="FullName" required>
+
+           </div>
+             <div class="form-field cols x-50">
+                <input id="name" name="contact_number" class="input-text js-input" type="text" placeholder="Phone" required>
+             </div>
+             <div class="form-field cols x-50">
+                <input id="email"  name="user_email" class="input-text js-input" type="email" placeholder="E-mail" required>
+             </div>
+             <div class="form-field cols x-100">
+                <input id="message" name="message" class="input-text js-input" type="text" placeholder="Message" required>
+             </div>
+             <div class="form-field cols x-100 align-center">
+                <input class="submit-btn red" type="submit" value="Send">
+             </div>
+          </form>
+       </section>
+
+      </main>
+   
+      
+
+         <!-- Desktop Footer -->
+    <footer class="page-footer maroon hide-on-small-only" id="main">
+      <div class="row">
+        <div class="col  s6">
+          <h5 class="white-text">Diski Nine9</h5>
+          <p class="grey-text text-lighten-4">Diski Nine9 Africa is a registered non-profit company based in Soweto, South Africa (Reg no: 2015/447508/08). Diski Nine9 was formed in 2015 and our objective is to use sport, notably soccer and netball as a tool to educate and empower young Africans. “Diski” is a slang term used in South Africa to describe the biggest and most loved sport around the world – Soccer. “Nine9” is a slang term meaning Authentic or Real.</p>
+          <div class="socials">
+            <i class="fab fa-facebook  fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-linkedin fa-2x"></i>
+            <i class="fab fa-twitter-square fa-2x"></i>
+            <i class="fab fa-youtube-square fa-2x"></i>
+          </div>
+        </div>
+        <div class="col  s2 ">
+          <h5 class="white-text">Explore</h5>
+          <ul class="footer-list">
+            <li><a class="white-text" href="about-v2.html">About</a></li>
+            <li><a class="white-text" href="programmes.html">Programmes</a></li>
+            <li><a class="white-text" href="#!">Galery</a></li>
+            <li><a class="white-text" href="#!">Tournaments</a></li>
+          </ul>
+        </div>
+        <div class="col s2">
+          <h5 class="white-text">Important</h5>
+          <ul class="footer-list">
+            <li><a class="white-text" href="#!">News</a></li>
+            <li><a class="white-text" href="#!">Timeline</a></li>
+            <li><a class="white-text" href="#!">Sports</a></li>
+            <li><a class="white-text" href="#!">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="col s2">
+          <h5 class="white-text">Categories</h5>
+          <ul class="footer-list">
+            <li><a class="white-text" href="#!">Diski / Soccer</a></li>
+            <li><a class="white-text" href="#!">Netball</a></li>
+            <li><a class="white-text" href="#!">E-Sports</a></li>
+            <li><a class="white-text" href="#!">Tournaments</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    <div class="footer-copyright">
+      Copyright 2019 DiskiNine9. All rights reserved 
+      <a href="index.html">Home</a>
+  
+    </div>
+  </footer> <!-- End of Desktop Footer -->
+  
+  <!-- Mobile Footer -->
+  <footer class="page-footer maroon hide-on-med-and-up" id="main">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Diski Nine9</h5>
+          <p class="grey-text text-lighten-4">Diski Nine9 Africa is a registered non-profit company based in Soweto, South Africa (Reg no: 2015/447508/08). Diski Nine9 was formed in 2015 and our objective is to use sport, notably soccer and netball as a tool to educate and empower young Africans. “Diski” is a slang term used in South Africa to describe the biggest and most loved sport around the world – Soccer. “Nine9” is a slang term meaning Authentic or Real.</p>
+          <div class="socials">
+            <i class="fab fa-facebook  fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-linkedin fa-2x"></i>
+            <i class="fab fa-twitter-square fa-2x"></i>
+            <i class="fab fa-youtube-square fa-2x"></i>
+          </div>
+        </div>
+        <div class="col l3 s12">
+           <h5 class="white-text">Explore</h5>
+          <ul class="mobile-footer-list">
+            <li><a class="white-text" href="about-v2.html">About</a></li>
+            <li><a class="white-text" href="#!">Programmes</a></li>
+            <li><a class="white-text" href="#!">Galery</a></li>
+            <li><a class="white-text" href="#!">Tournaments</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Important</h5>
+          <ul class="mobile-footer-list">
+            <li><a class="white-text" href="#!">News</a></li>
+            <li><a class="white-text" href="#!">Timeline</a></li>
+            <li><a class="white-text" href="#!">Sports</a></li>
+            <li><a class="white-text" href="#!">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Categories</h5>
+          <ul class="mobile-footer-list">
+            <li><a class="white-text" href="#!">Diski / Soccer</a></li>
+            <li><a class="white-text" href="#!">Netball</a></li>
+            <li><a class="white-text" href="#!">E-Sports</a></li>
+            <li><a class="white-text" href="#!">Tournaments</a></li>
+          </ul>
+        </div>
+      </div>
+    <hr>
+    <div class="footer-copyright">
+      Copyright 2019 DiskiNine9. All rights reserved 
+      <a href="index.html">Home</a>
+    </div>
+  </footer> <!-- End of Mobile Footer -->
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script>
+          var viewportHeader = document.querySelector(".viewport-header");
+
+          
+          document.body.addEventListener("scroll", function(event) {
+            var opacity = (document.body.offsetHeight - document.body.scrollTop) / document.body.offsetHeight;
+            var scale = (document.body.offsetHeight - document.body.scrollTop) / document.body.offsetHeight;
+            document.documentElement.style.setProperty('--headerOpacity', opacity);
+            document.documentElement.style.setProperty('--headerScale', scale); });
+            
+            //set the playrate and start the video at 3s
+            document.getElementById("theVideo").playbackRate = .4;
+            document.getElementById('theVideo').addEventListener('loadedmetadata', function() {
+              this.currentTime = 3;
+            }, false);
+
+            $(function() {
+            $('a[href*=#]').on('click', function(e) {
+              e.preventDefault();
+              $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+            });
+          });
+
+          /* Hide on Scroll */
+           $(function () {
+            $(window).scroll(function(){
+            var scroll = $(window).scrollTop();
+            if (scroll >= 2) {
+              document.getElementById("video-header").style.display = "none";
+            
+
+            }
+            else{
+            $('#video-header').show();
+            
+            }
+            });
+            }) 
+     
+      </script>
+
+</body>
+</html>
